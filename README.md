@@ -22,6 +22,10 @@ We experimented with several technologies for performing those transformations. 
 
 Finally, we settled on Spark for rationalizing JSONs, Glue catalog and Spectrum for the S3 mapping and on plain old-fashioned SQL embedded in the Glue framework for the transformations and updates. The resulting scripts are automated using Lambda and the basics of the glue framework. That - simple - approach has the advantage of readily available knowledge, fast, agile development cycles, good collaboration and superior performance and transparency. Ultimately, we templated the approach, resulting in low cost and fast time to benefits.
 
+<p align="center">
+  <img align="center" src="image/static/System_Flow.jpg" width=100%>
+</p>
+<p align="center"><b>Scenario 1:</b> System Flow.</p>
 
 We can’t beat physical or re-invent big data. Yet this approach provides availability of integrated data very early in the process. This enables a close interaction with the business user, early validation of the business case on integrated data thus focusing the development effort and accelerating time to value. 
 
