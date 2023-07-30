@@ -8,6 +8,35 @@ This article focuses on the ETL technology and the journey of getting there, the
 
 Technically the ETL process builds on S3 objects, mapping them with the glue catalog and spectrum to “SQL-tables” in Redshift, thereafter using Glue processes with embedded SQL to transform the data into conformed dimension tables in Redshift.
 
+# Infrastructure Overview
+
+As an independent open source project, the Jenkins project maintains most of its own infrastructure including services which help to keep the project running. The kind of things that fall into "infrastructure" can span from operating virtual machines, containers, configuring network or developing and maintaining project-specific applications to make the development of Jenkins core and plugins more efficient.
+
+Because we strongly believe in Open Source principles, we also apply them to our infrastructure. As such we consider ourself as an open infrastructure project where everybody is invited to learn, share, contribute.
+
+<p align="center">
+  <img align="center" src="image/static/jenkins_infra.PNG" width=100%>
+</p>
+<p align="center"><b>Figure 1:</b> Jenkins Infra - In Root.</p>
+
+## Contributing
+
+Thier infrastructure is an open infrastructure project made by and for the Jenkins community. In other words, it’s a contributors driven project.
+
+<p align="center">
+  <img align="center" src="image/static/contribution_workflow.png" width=100%>
+</p>
+<p align="center"><b>Figure 2:</b> Contribution Workflow - Jenkins.</p>
+
+## Deployment
+
+The deployment step is the only moment where we need approval from someone with elevated permission. As already mentioned, even if we try to be as open as possible, we don’t want to share privileged accesses with every contributors even if we trust them and that mainly for security reasons.
+
+<p align="center">
+  <img align="center" src="image/static/jenkins_infra.PNG" width=100%>
+</p>
+<p align="center"><b>Figure 3:</b> Our Jenkins Infra.</p>
+
 ## Getting the data into S3 was relatively easy
 
 Getting the data into S3 was relatively easy, either by S3 becoming one more subscriber of our standardized messages on the integrated middle-ware or by means within the SAP environment or by API-calls / Json files. The most challenging aspect was probably getting salesforce.com data at scale – and reliably and actually getting at the data’s true source, getting to the horse’s mouth. Any step in between is a potential source of error – and trust me - the user of the data will find every single missing entry or attribute.
