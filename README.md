@@ -1,4 +1,4 @@
-# Enterprise_DataModelling
+# Architecting Success: A Global Enterprise Data Model Journey
 
 This scenario shows how data can be ingested into a cloud environment from an on-premises data warehouse of an Agricultural Industry, then served using a business intelligence (BI) model. This approach could be an end goal or a first step toward full modernization with cloud-based components.
 
