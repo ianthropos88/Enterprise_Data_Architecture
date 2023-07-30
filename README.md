@@ -15,9 +15,9 @@ As an independent open source project, the Jenkins project maintains most of its
 Because we strongly believe in Open Source principles, we also apply them to our infrastructure. As such we consider ourself as an open infrastructure project where everybody is invited to learn, share, contribute.
 
 <p align="center">
-  <img align="center" src="image/static/jenkins_infra.PNG" width=100%>
+  <img align="center" src="image/static/infra_overview.png" width=100%>
 </p>
-<p align="center"><b>Figure 1:</b> Jenkins Infra - In Root.</p>
+<p align="center"><b>Figure 1:</b> Jenkins Infra - Overview.</p>
 
 ## Contributing
 
