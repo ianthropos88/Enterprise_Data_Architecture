@@ -165,6 +165,6 @@ The [almost] finest level of lineage information provides insights for individua
 All together the lineage information, based on Gudusoft’s automated analysis and compressed for simplicity provides a coherent, understandable and actionable lineage framework from coarse to fine and back across the many source technologies we integrated into our data marts and out to the data’s usage, whether in graphical or tabular form.
 
 # About me 🤓
-- With 10+ years of industry experience, I have thrived in Data Science, Data Governance, IT, Cloud and Product Management. I have a keen interest and expertise in solving business problems using unique logic and analytics. I bring solutions to the table based on competitive Business Acumen and Human Intelligence.
-- Have a look at my portfolio: [Helping organization level all their Seeds Business arguments using Data & Technology | Ex_Zalando | Ex_Freecharge | Ex_Myntra Jabong | Ex_Supercell | Ex_Infosys](https://www.linkedin.com/in/pnchoudhury/)
-- I love talking about #cloudarchitecture, #businessanalytics, #datapipelines, #machinelearning, and #artificialintelligence
+- With 12+ years of industry experience, I have thrived in Data Science, Data Governance, IT, Cloud and Product Management. I have a keen interest and expertise in solving business problems using unique logic and analytics. I bring solutions to the table based on competitive Business Acumen and Human Intelligence.
+- Have a look at my portfolio: [Helping organizations level all their Business arguments using Data & Technology (AI-Powered) | Ex_SyngentaAG | Ex_Zalando | Ex_Freecharge | Ex_Myntra Jabong | Ex_Supercell | Ex_Infosys](https://www.linkedin.com/in/ianthropos/)
+- I love talking about #cloudarchitecture, #businessanalytics, #softwareengineerng, #datapipelines, #machinelearning, and #artificialintelligence
